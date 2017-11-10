@@ -47,6 +47,16 @@ background: -webkit-linear-gradient(to right, #cac531, #f3f9a7); /* Chrome 10-25
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+.navbar-default .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #cac531;
+    }
+}
+
 .homeCallout{
     color:white;
     margin-top: -20px;
